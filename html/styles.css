@@ -1,0 +1,219 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.titulo-banner {
+    margin-top: 600px;
+    line-height: 30px;
+}
+
+.titulo-banner div h1 {
+    font-family: "Bakbak One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    background: linear-gradient(180deg, #e1f2d5, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.titulo-banner div p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+/* HOT COLECTION */
+.hot-collection {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.hot-collection .heading {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px; /* Espacio entre las imágenes */
+    grid-auto-rows: 200px;
+    margin: 16px;
+}
+
+.image-grid .element {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* ESTILO FUTER AHRE */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+/* GALERIAH */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    overflow-x: hidden;
+}
+.galeria img {
+    width: 100%; 
+    height: auto;  
+    object-fit: cover; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(151, 218, 174, 0.538); 
+}
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.tienda-banner {
+    background-image: url('img/banner-tienda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center; 
+    text-align: center;
+    color: white; 
+    padding-top: 20px; 
+}
+
+.tienda-banner h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Bakbak One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.tienda-banner p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/*  TIENDA */
+
+body {
+    background-color: #000000;
+}
+
+.tienda-banner {
+    background-image: url('img/banner-tienda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: center;
+    color: white; 
+    padding-top: 20px; 
+}
+
+.tienda-banner h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Bakbak One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.tienda-banner p {
+    font-size: 1.5em;
+    margin: 0;
+}
